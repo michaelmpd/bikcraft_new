@@ -16,6 +16,7 @@
   text-transform: uppercase;
   color: var(--cor-p5);
   transition: .3s;
+  max-width: max-content;
 }
 
 .link{
@@ -41,6 +42,15 @@
 
 .botao:hover{
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+.botao.secundario{
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
+.botao.secundario:hover{
+  background: var(--cor-9);
 }
 
 @media (max-width:600px){
